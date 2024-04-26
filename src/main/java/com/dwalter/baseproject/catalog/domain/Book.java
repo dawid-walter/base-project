@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
+import java.math.BigDecimal;
+
 @Getter
 @ToString
 @Builder
@@ -14,4 +16,5 @@ public class Book {
     private final String title;
     private final String author;
     private final Integer year;
+    private final BigDecimal price;
 }
