@@ -1,7 +1,7 @@
-package com.dwalter.baseproject.infrastructure;
+package com.dwalter.baseproject.catalog.infrastructure;
 
-import com.dwalter.baseproject.domain.Book;
-import com.dwalter.baseproject.domain.CatalogRepository;
+import com.dwalter.baseproject.catalog.domain.Book;
+import com.dwalter.baseproject.catalog.domain.CatalogRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;

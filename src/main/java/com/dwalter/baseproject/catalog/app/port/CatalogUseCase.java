@@ -1,6 +1,6 @@
-package com.dwalter.baseproject.app.port;
+package com.dwalter.baseproject.catalog.app.port;
 
-import com.dwalter.baseproject.domain.Book;
+import com.dwalter.baseproject.catalog.domain.Book;
 
 import java.util.List;
 import java.util.Optional;

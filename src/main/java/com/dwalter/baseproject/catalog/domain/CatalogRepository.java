@@ -1,4 +1,4 @@
-package com.dwalter.baseproject.domain;
+package com.dwalter.baseproject.catalog.domain;
 
 import org.springframework.stereotype.Repository;
 

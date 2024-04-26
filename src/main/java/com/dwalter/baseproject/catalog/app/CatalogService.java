@@ -1,8 +1,8 @@
-package com.dwalter.baseproject.app;
+package com.dwalter.baseproject.catalog.app;
 
-import com.dwalter.baseproject.app.port.CatalogUseCase;
-import com.dwalter.baseproject.domain.Book;
-import com.dwalter.baseproject.domain.CatalogRepository;
+import com.dwalter.baseproject.catalog.app.port.CatalogUseCase;
+import com.dwalter.baseproject.catalog.domain.Book;
+import com.dwalter.baseproject.catalog.domain.CatalogRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
