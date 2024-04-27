@@ -61,4 +61,9 @@ class CatalogService implements CatalogUseCase {
                 })
                 .orElseGet(() -> new UpdateBookResponse(false, List.of("Book if id " + command.id() + " is not found")));
     }
+
+    @Override
+    public Optional<Book> findById(Long id) {
+        return repository.findById(id);
+    }
 }

@@ -20,6 +20,8 @@ public interface CatalogUseCase {
 
     UpdateBookResponse updateBook(UpdateBookCommand command);
 
+    Optional<Book> findById(Long id);
+
     record CreateBookCommand(String title, String author, Integer year) {
     }
 
